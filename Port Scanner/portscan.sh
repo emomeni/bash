@@ -54,3 +54,6 @@ wait
 
 # Inform the user the scan is complete
 echo "Port scanning completed. Results saved to $output_file."
+# Display the results to the user
+echo "Scan results:"
+cat "$output_file"
